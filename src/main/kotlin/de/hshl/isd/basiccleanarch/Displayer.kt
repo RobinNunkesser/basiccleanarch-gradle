@@ -10,5 +10,5 @@ interface Displayer {
      *
      * @param result the result to display.
      */
-    fun display(result: Result)
+    fun display(result: Response)
 }
