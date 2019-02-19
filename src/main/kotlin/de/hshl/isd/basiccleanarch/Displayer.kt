@@ -1,7 +1,8 @@
 package de.hshl.isd.basiccleanarch
 
 /**
- * A `Displayer` is used to display the result of a use case that changes the displayed view.
+ * A `Displayer` is used to display the result of a use case that
+ * changes the displayed view.
  */
 interface Displayer {
 
