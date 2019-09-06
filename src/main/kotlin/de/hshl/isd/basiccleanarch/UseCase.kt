@@ -13,5 +13,5 @@ interface UseCase<Request, Entity, ViewModel> {
      * @param request encapsulated request parameters.
      * @param displayer the Displayer to use for the result.
      */
-    fun execute(request: Request, displayer: Displayer)
+    fun execute(request: Request, displayer: Displayer<ViewModel>)
 }
