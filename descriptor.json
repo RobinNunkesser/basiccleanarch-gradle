@@ -1,0 +1,33 @@
+{
+  "package": {
+    "name": "basiccleanarch",
+    "repo": "maven",
+    "subject": "",
+    "desc": "Basic clean architecture is a set of helpful protocols for the basic concepts of Clean Architecture like Interactors, Entities, Presenters, and Boundaries.",
+    "website_url": "",
+    "issue_tracker_url": "",
+    "vcs_url": "https://github.com/RobinNunkesser/basiccleanarch-gradle",
+    "licenses": [
+      "Apache-2.0"
+    ],
+    "labels": [
+      "kotlin",
+      "bintray",
+      "gradle"
+    ],
+    "public_download_numbers": false,
+    "public_stats": false
+  },
+  "version": {
+    "name": "1.1",
+    "released": "2019-09-09",
+    "gpgSign": false
+  },
+  "files": [
+    {
+      "includePattern": "build/libs/(.*)",
+      "uploadPattern": "de/hshl/isd/basiccleanarch/1.1/$1"
+    }
+  ],
+  "publish": true
+}
