@@ -12,6 +12,7 @@ interface UseCase<Request, Entity, ViewModel> {
      *
      * @param request encapsulated request parameters.
      * @param displayer the Displayer to use for the result.
+     * @param requestCode optional requestCode to distinguish similar requests
      */
-    fun execute(request: Request, displayer: Displayer<ViewModel>)
+    fun execute(request: Request, displayer: Displayer<ViewModel>, requestCode: Int = 0)
 }

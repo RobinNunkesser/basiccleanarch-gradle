@@ -10,8 +10,9 @@ interface Displayer<ViewModel> {
      * Displays data from a ViewModel.
      *
      * @param success the result to display.
+     * @param requestCode optional requestCode to distinguish similar requests
      */
-    fun display(success: ViewModel)
+    fun display(success: ViewModel, requestCode: Int = 0)
 
     /**
      * Displays an Error.
