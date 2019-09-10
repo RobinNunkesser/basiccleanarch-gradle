@@ -10,4 +10,5 @@ deploy:
   file: "descriptor.json"
   user: $BINTRAY_API_USER
   key: $BINTRAY_API_KEY
+  skip_cleanup: true # to upload artifacts created during the build
   dry-run: false
